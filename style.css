@@ -1,0 +1,63 @@
+a { 
+      color:white;
+      text-decoration: none;
+       }
+    #ABC {
+      font-family: "courier";
+      background-color: blue;
+      height: 100%;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      left: 0;
+      width: 100%;
+      font-size: 50px;
+    }
+
+    body{
+      background: pink;
+      margin: 0;
+      font-size: 50px;
+
+    } 
+
+    .wrapper {
+      width: 250px;
+      height: 100px;
+      margin: 120px auto 0 auto;
+    }
+
+    p {
+      font-size: 50px;
+      font-family: "courier";
+    }
+
+
+    .firsts { 
+
+      background: white; 
+      padding: 10px;
+      margin: 90px;
+    }
+
+    #first {
+      font-family: "courier";
+      letter-spacing: .200em;
+    }
+
+    #first:hover {
+      opacity: 0;
+      cursor: pointer;
+}
+
+    #first:active {
+      background:red;
+    }
+    
+    #love:active {
+      background:red;
+    }
+    
+
+
+    }
