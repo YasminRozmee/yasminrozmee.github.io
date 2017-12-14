@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Cardo);
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+@import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script);
+
+
+
+.page-header{
+  font-family: 'Cardo', serif;
+  background: #fff9d1;
+}
+
+
+.container {
+  padding-bottom: 60px;
+}
+
+.quiz-question {
+  font-family: 'Cardo', serif;
+  font-weight: bold;
+  font-size: 28px;
+  padding: 20px 0 5px;
+}
+
+.quiz-answer label {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 18px;
+  font-weight: normal;
+  display: block;
+  padding-left: 15px;
+}
+
+#result {
+  font-family:'Petit Formal Script';
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+  text-transform: lowercase;
+}
+
+
+section {
+  padding: 0rem 15%;
+  height: 24vh;
+  min-height: 5.125rem;
+}
+
+section:nth-of-type(odd) {
+  background: #FFDFD7;
+}
+
+section:nth-of-type(even) {
+  background: #d5e5e3;
+}
+
+@media screen and (max-width: 30rem) {
+  section {
+    height: 100vh;

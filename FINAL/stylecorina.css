@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Cardo);
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+html {
+  box-sizing: border-box;
+/*  font-size: 16px;
+*/}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #FFDFD7
+  height: 100%;
+  line-height: 1.5;
+}
+
+#header {
+ font-family: 'Cardo', serif;
+ background: #FFDFD7
+
+}
+
+#heart {
+    display:block;
+    height:100px;
+    width:100px;
+    position:relative;
+}
+#heart .fill {
+    display: block;
+    height: 70px;
+    left: -1px;
+    overflow: hidden;
+    position: absolute;
+    top: -4px;
+    width: 70px;
+    z-index: 3;
+    -webkit-transition: height 2s ease-in-out;
+    -moz-transition: height 2s ease-in-out;
+    -o-transition: height 2s ease-in-out;
+    -ms-transition: height 2s ease-in-out;
+    transition: height 2s ease-in-out;
+}
+#heart .fill:before, #heart .fill:after {
+    background: #ed7063;
+    border-radius: 85px 60px 0 0;
+    content:"";
+    height: 59px;
+    left: 37px;
+    position: absolute;
+    top: 6px;
+    width: 36px;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 85px 60px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+#heart .fill:after {
+    left: 1px;
+    -webkit-transform: rotate(45deg);
+    border-radius: 45px 60px 0 0;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+#heart .outline {
+    position: relative;
+    margin-left: 8px;
+}
+#heart .outline:before, #heart .outline:after {
+    position: absolute;
+    content:"";
+    left: 28px;
+    top: 1px;
+    width: 39px;
+    height: 62px;
+    background: #d53423;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 85px 60px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+#heart .outline:after {
+    left: -11px;
+    -webkit-transform: rotate(45deg);
+    border-radius: 45px 60px 0 0;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+#heart:hover .fill {
+    height:0px;
+}
+
+
+  
+
+}
+
+body,
+section,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.text-wrap {
+  background: #FFDFD7
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 53rem;
+}
+
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.bottomtext {
+font-family:'Lucida Console';
+font-size: 25px;
+padding: 0px;
+
+}
+
+
+
+h2 {
+  font-family: 'Cardo', serif;
+  font-size: 3rem;
+  color: ##373B3E;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: 'Cutive Mono', 'Lucida Console', 'Courier New', monospace;
+  font-size: 15px;
+  background: #FFDFD7
+
+}
+
+section {
+  background: #FFDFD7
+  padding: 2rem 10%;
+  height: 50vh;
+  min-height: 39.125rem;
+}
+
+section: () {
+ 
+
+}
+
+
+
+@media screen and (max-width: 45rem) {
+  section {
+    height: 100vh;
+
+    
+  }
+  h2 {
+    font-size: 5vh;
+  }
+}
+
+
+
+h3 {
+  font-family: 'Cardo', serif;
+  font-size: 5rem;
+}

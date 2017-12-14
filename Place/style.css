@@ -1,0 +1,44 @@
+.quote-box {
+    border-radius: 25px;
+    position: relative;
+    margin: 8% auto auto auto;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+}
+
+#quoteText {
+  padding-bottom: 20px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+#quoteDisplay {
+  font-family: 'Pangolin', cursive;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.button-style{
+font-family: 'Galindo', cursive;
+}
+
+.top-padding{
+  padding:20px;
+}
+
+body {
+    width:100%;
+    height: 100%;
+}

@@ -2,13 +2,19 @@ var cash = 2000;
 
 update_wallet();
 
-$('.item').click(function() {
+var firstitem = document.querySelector('item')
+firstitem.addEventListener("click", purchase)
+
+
+function purchase(){
 	var item =$(this) .data('item');
 	var amount =$(this) .data('amount');
 
 	charge_card(amount, item);
+}
 
-});
+
+
 
 function charge_card(amount, item) {
 

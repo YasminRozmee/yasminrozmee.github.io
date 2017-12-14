@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+
+
+   <link REL="STYLESHEET" TYPE="text/css" HREF="secondquiz.css">
+
+
+<html lang="en">
+<head>
+
+</head>
+<!-- BODY -->
+<body>
+
+<body onLoad="populate()"> 
+<form name="personalityForm"> 
+<div class="wrapper container">  
+
+<center>  
+  <div class="page-header">
+    <h1>Which <a href="index.html" style="color: #a1ddd6; text-decoration: none;">Friend</a> are you?<br>
+    <small>Take this quiz to find out!</small></h1>
+  </div>
+
+<section>
+  <div class="quiz-box quiz-1">  
+    <h2 class="quiz-question">1. What is your favourite thing to snack on?</h2>
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q1" onClick="saver(1,1)">Popcorn</label>
+      <label><input type="radio" name="q1" onClick="saver(1,2)"> Cookies</label>
+      <label><input type="radio" name="q1" onClick="saver(1,3)">Ice Cream</label>
+      <label><input type="radio" name="q1" onClick="saver(1,4)">fried oreos</label>
+    </span>  
+  </div>  
+</section>
+
+  <section>
+  <div class="quiz-box quiz-2">  
+    <h2 class="quiz-question">2. What Noodle dish would you be?</h2> 
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q2" onClick="saver(2,2)"> Pho</label>
+      <label><input type="radio" name="q2" onClick="saver(2,1)">Japanese Ramen</label>
+      <label><input type="radio" name="q2" onClick="saver(2,3)">cabonara</label>
+      <label><input type="radio" name="q2" onClick="saver(2,4)"> Pasta with pesto</label>
+    </span>  
+  </div> 
+  </section> 
+
+  <section>
+  <div class="quiz-box quiz-3">   
+    <h2 class="quiz-question">3. Which Millenial Goals from the UN would you prioritise?</h2> 
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q3" onClick="saver(3,1)"> to eradicate extreme poverty and hunger</label> 
+      <label><input type="radio" name="q3" onClick="saver(3,2)">to achieve universal primary education</label> 
+      <label><input type="radio" name="q3" onClick="saver(3,3)">to improve maternal health</label> 
+      <label><input type="radio" name="q3" onClick="saver(3,4)">to promote gender equality and empower women</label> 
+    </span>  
+  </div> 
+</section>
+
+<section>
+  <div class="quiz-box quiz-4">    
+    <h2 class="quiz-question">4. What flavoured tea would you be?</h2> 
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q4" onClick="saver(4,1)"> Jasmine tea</label> 
+      <label><input type="radio" name="q4" onClick="saver(4,3)">Black tea</label> 
+      <label><input type="radio" name="q4" onClick="saver(4,4)">Bubble tea</label>
+      <label><input type="radio" name="q4" onClick="saver(4,2)">Fruit flavored tea</label> 
+    </span>  
+  </div> 
+</section>
+
+<section>
+  <div class="quiz-box quiz-5">    
+    <h2 class="quiz-question">5. What would describe your clothing style?</h2>
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q5" onClick="saver(5,1)"> Thrifty nifty</label> 
+      <label><input type="radio" name="q5" onClick="saver(5,2)"> Preppy prep</label> 
+      <label><input type="radio" name="q5" onClick="saver(5,3)">Basic AF</label> 
+      <label><input type="radio" name="q5" onClick="saver(5,4)"> Grandma style</label> 
+    </span>  
+  </div> 
+</section>
+
+<section>
+  <div class="quiz-box quiz-6">    
+    <h2 class="quiz-question">6. What color scheme are you?</h2>
+    <span class="quiz-answer">
+      <label><input type="radio" name="q6" onClick="saver(6,1)"> Black and red (think <i>Grease</i>)</label> 
+      <label><input type="radio" name="q6" onClick="saver(6,2)"> cool colors</label> 
+      <label><input type="radio" name="q6" onClick="saver(6,3)"> basic black and white</label> 
+      <label><input type="radio" name="q6" onClick="saver(6,4)"> Pastels</label> 
+    </span>  
+  </div> 
+</section>
+
+<section>
+  <div class="quiz-box quiz-7">   
+    <h2 class="quiz-question">7. What's your biggest fear?</h2> 
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q7" onClick="saver(7,1)"> Incompetence and life long failure</label> 
+      <label><input type="radio" name="q7" onClick="saver(7,2)"> Being insecure</label> 
+      <label><input type="radio" name="q7" onClick="saver(7,3)"> Death</label> 
+      <label><input type="radio" name="q7" onClick="saver(7,4)">Doing something I hate</label> 
+    </span>  
+  </div> 
+  </section>
+
+
+<section>
+  <div class="quiz-box quiz-8">  
+    <h2 class="quiz-question">8. What's your guilty pleasure?</h2> 
+    <span class="quiz-answer">
+      <label><input type="radio" name="q8" onClick="saver(8,2)"> Keeping up with the Kardashians</label> 
+      <label><input type="radio" name="q8" onClick="saver(8,1)"> Property Brothers</label> 
+      <label><input type="radio" name="q8" onClick="saver(8,3)"> Wasting time on Youtube</label> 
+      <label><input type="radio" name="q8" onClick="saver(8,4)"> Friends</label>
+    </span>  
+  </div>
+  </section>  
+
+<section>
+  <div class="quiz-box quiz-9">    
+    <h2 class="quiz-question">9. If you could choose a celebrity to hang out with for a day, who would it be?</h2> 
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q9" onClick="saver(9,4)">Zendaya</label>
+      <label><input type="radio" name="q9" onClick="saver(9,3)"> Zac Efron</label> 
+      <label><input type="radio" name="q9" onClick="saver(9,2)"> One of the Kardashians</label> 
+      <label><input type="radio" name="q9" onClick="saver(9,1)"> Chrissy Teigen</label> 
+    </span>  
+  </div>
+  </section>
+
+<section>
+  <div class="quiz-box quiz-10">    
+    <h2 class="quiz-question">10. How's your love life going?</h2> 
+    <span class="quiz-answer">   
+      <label><input type="radio" name="10" onClick="saver(10,2)"> It's complicated</label> 
+      <label><input type="radio" name="10" onClick="saver(10,3)"> Pftt, not interested</label>
+      <label><input type="radio" name="10" onClick="saver(10,4)"> On the lookout</label> 
+      <label><input type="radio" name="10" onClick="saver(10,1)"> Great! </label>
+    </span>  
+  </div>    
+  </center>
+</section>
+  
+  <hr>  
+
+  <center>
+  <div class="get-result">   
+    <input class="btn btn-primary" type="button" name="result" value="Submit" onClick="total()"> 
+    <input class="btn btn-default" type="reset" value="Reset"> 
+  </div> 
+</center>
+
+  
+  <hr>   
+  
+  <center>
+  <div class="result-box">   
+    <h3></h3>
+    <div id="result"></div> 
+  </div>
+</center>
+    
+  
+</div><!-- /.container -->    
+</form> 
+</body>
+
+
+<script src="secondquiz.js"></script>
+
+
+</body>
+</html>

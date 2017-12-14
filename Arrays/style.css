@@ -21,7 +21,7 @@ body{
 
   display:flex;
   align-items: center;
-  /*justify-content: center; bumps everything out of wack because of floating button*/
+  
 }  
 
 a {
@@ -42,7 +42,7 @@ a {
 a:hover{
   background: #fff;
   color:#333;
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
+
   box-shadow: 0px 5px 0px rgba(170, 170, 170, .5);
 }
 
