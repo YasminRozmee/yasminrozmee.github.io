@@ -1,15 +1,12 @@
-var Quest = new Array(10);  //this sets up an array for all of the answers that are given 
+var Quest = new Array(10);  
 
 function populate() { 
-// alert("function populate started"); 
-// this function gives each of the answers 0 points so if someone doesn't answer a question 
-// the whole thing will continue to work 
+
   for(var i=0; i<10; i++) { Quest[i]=0; } 
 } 
 
 function total() { 
-// alert("function total started"); 
-// this function adds the number of points each answer is worth together 
+
   myScore=0; 
   for (var i=0; i<10; i++) { myScore=myScore+Quest[i]; } 
   analyzer(myScore); 
@@ -27,7 +24,7 @@ myContents = new Array();
 
 
 function analyzer (myScore) { 
-// this function uses the total calculated score to figure out which personality type they are 
+
   if (myScore>30)            { myContentsPtr = 4; } //6
     else { if (myScore > 30) { myContentsPtr = 4; } //5
     else { if(myScore>23)    { myContentsPtr = 3; } //4
