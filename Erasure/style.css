@@ -1,0 +1,188 @@
+
+
+:root {
+/* COLOR VARIABLES */
+--myred: #FFA7AE;
+--myyellow: #F8FF82;
+--mygreen: #92E888;
+--myblue: #87CFFF;
+--mypurple: #C3A6F4;
+
+--mygray: #ffebfc;
+--mylightgray: #d3d3de;
+--clearwhite: rgba(255, 255, 255, 0.5);
+}
+
+body {
+	background-image: url("images/gradient.png");
+	background-size: cover;
+	background-color: #ffebfc;
+}
+
+#topspacer {
+	height: 7em;
+}
+
+.bio a {
+	/*color: gray;
+	display: inline-block;
+	float: center;
+	text-align: center;
+	font-size: 1.2em;
+	width: 18%;*/
+	font-size: 2em;
+	font-family: 'Bungee Inline', sans-serif;
+	display: inline-block;
+	text-shadow: 2px 2px rgba(255, 255, 255, 0.75);
+	text-align: center;
+	width: 19%;
+}
+
+.bio a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+#midspacer {
+	height: 2em;
+}
+
+.bio {
+	text-align: center;
+	height: 50%;
+	width: 60%;
+	margin: auto;
+	color: var(--mygray);
+	text-align: justify;
+	font-family: 'Muli', sans-serif;
+	font-size: 1.2em;
+	padding: 0.25em;
+}
+
+.bio-wrapper {
+	padding-top: 3%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+/* WHO */
+
+.who-title  {
+	color: var(--myred);
+}
+
+.who-title:hover {
+	color: var(--myred);
+	background-color: var(--clearwhite);
+}
+
+.who-title:hover ~ .who {
+	color: white;
+	background-color: var(--myred);
+}
+
+.who {
+	color: var(--mygray);
+}
+
+/* WHAT */
+
+.what-title  {
+	color: var(--myyellow);
+}
+
+.what-title:hover {
+	color: var(--myyellow);
+	background-color: var(--clearwhite);
+}
+
+.what-title:hover ~ .what {
+	color: var(--mylightgray);
+	background-color: var(--myyellow);
+}
+
+.what {
+	color: var(--mygray);
+}
+
+/* WHERE */
+
+.where-title {
+	color: var(--mygreen);
+}
+
+.where-title:hover {
+	color: var(--mygreen);
+	background-color: var(--clearwhite);
+}
+
+.where-title:hover ~ .where {
+	color: white;
+	background-color: var(--mygreen);
+}
+
+.where {
+	color: var(--mygray);
+}
+
+/* WHEN */
+
+.when-title {
+	color: var(--myblue);
+}
+
+.when-title:hover {
+	color: var(--myblue);
+	background-color: var(--clearwhite);
+}
+
+.when-title:hover ~ .when {
+	color: white;
+	background-color: var(--myblue);
+}
+
+.when {
+	color: var(--mygray);
+}
+
+/* WHY */
+
+.why-title {
+	color: var(--mypurple);
+}
+
+.why-title:hover {
+	color: var(--mypurple);
+	background-color: var(--clearwhite);
+}
+
+.why-title:hover ~ .why {
+	color: white;
+	background-color: var(--mypurple);
+}
+
+.why {
+	color: var(--mygray);
+}
+
+
+
+.reveal-title {
+	color: black;
+	
+}
+
+.reveal-title:hover {
+	color: var(--mypurple);
+	background-color: var(--clearwhite);
+}
+
+.reveal-title:hover ~ .reveal {
+	color: white;
+	background-color: var(--mypurple);
+}
+
+.reveal {
+	color: var(--mygray);
+}

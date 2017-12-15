@@ -15,7 +15,7 @@ function total() {
 myContents = new Array(); 
   myContents[0] = "Try Again"   +  '<a href="secondquiz.html" style="color: #a1ddd6; text-decoration: none;">Friend</a>'; 
   myContents[1] = "You Are a  "  + '<a href="CORINA.html" style="color: #a1ddd6; text-decoration: none;">Corina</a>'; 
-  myContents[2] = "You Are a " + '<a href="THANH.html" style="color: #a1ddd6; text-decoration: none;">Thanh</a>';
+  myContents[2] = "You Are a " + '<a href="Thanh.html" style="color: #a1ddd6; text-decoration: none;">Thanh</a>';
   myContents[3] = "You Are a  "  + '<a href="MEGAN.html" style="color: #a1ddd6; text-decoration: none;">Megan</a>';  
   myContents[4] = "You Are a  "   + '<a href="YASMIN.html" style="color: #a1ddd6; text-decoration: none;">Megan</a>';  
   myContents[5] = "All of US"  + ""
